@@ -1,0 +1,505 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+}
+body {
+  background-color: rgb(233, 227, 227);
+}
+header {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #e3e6f3;
+  box-shadow: 0px 5px 15px rgb(0, 0, 0, 0.06);
+  padding: 0 35px;
+}
+header img{
+  height: 110px;
+}
+header nav{
+  display: flex;
+  gap: 3vw;
+}
+header nav a {
+  text-decoration: none;
+  font-size: 2vw;
+  color: black;
+}
+nav a {
+  transition: 0.5s;
+}
+#bag{
+font-size: 24px;
+}
+nav a:hover {
+  color: #22c9be;
+  text-decoration: underline;
+}
+nav a:nth-child(1) {
+  color: #22c9be;
+}
+
+#close{
+  display: none;
+}
+#hamburger {
+  display: none;
+  font-size: 24px;
+}
+
+.main {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  background-image: url("bg.png");
+  background-size: cover;
+  background-position: center;
+}
+.leftsection-1 {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  padding-left: 10vw;
+}
+.heading-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.heading-1 h1 {
+  font-size: 50px;
+}
+.heading-1 p {
+  color: #088178;
+  font-size: 25px;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+  flex-wrap: wrap;
+}
+.heading-2 h1 {
+  font-size: 55px;
+  padding-top: 40px;
+}
+.cloth-sec {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px;
+  /* background-color: red; */
+}
+.image-2 {
+  margin-top: 20px;
+  border: 2px solid #cce7d0;
+  border-radius: 20px;
+  width: 250px;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+  gap: 10px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+}
+.image-2 p {
+  width: 90%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+}
+.image-2:hover {
+  transform: scale(1.1);
+}
+.image-2 img {
+  width: 75%;
+  border-radius: 20px;
+}
+.seemore a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.seemore a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+/* featured product */
+.featured-product h1 {
+  font-size: 4vw;
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 50px;
+}
+.featured-product p:nth-child(2) {
+  font-size: 1.8vw;
+  text-align: center;
+  color: #047a72;
+}
+.container-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+.small-container-3 {
+  width: 245px;
+  border: 2px solid #cce7d0;
+  border-radius: 25px;
+  padding: 10px 12px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+  margin: 15px 0;
+  transition: 0.5s;
+}
+.small-container-3:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.4);
+}
+.small-container-3 img {
+  width: 100%;
+  border-radius: 25px;
+}
+.dis-3 {
+  padding: 10px 0;
+}
+.dis-3 h5 {
+  color: #606063;
+  font-size: 18px;
+}
+.dis-3 h4 {
+  padding-top: 7px;
+  color: #1a1a1a;
+  font-size: 20px;
+}
+.star-3 i {
+  color: gold;
+  padding-top: 4px;
+}
+.dis-3 h3 {
+  padding-top: 6px;
+  color: #047a72;
+}
+
+/* new arrival */
+.image-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("new\ arrival.jpg");
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  margin-top: 70px;
+}  
+.heading-4{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: white;
+  align-items: center;
+}
+.heading-4 h3{
+  font-size: 20px;
+}
+.heading-4 h1{
+  width: 100%;
+  font-size: 40px;
+}
+.heading-4 span{
+  color: red;
+}
+.heading-4 button{
+  width: 30%;
+  padding: 15px 25px;
+  font-size: 20px;
+  color: #047a72;
+  transition: .5s;
+}
+.heading-4 button:hover{
+  background-color: #047a72;
+  color: white;
+}
+.new-arr-2{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+  height: 40%;
+}
+.new-arr-2 h1{
+  font-size: 50px;
+  padding-top: 50px;
+  text-align: center;
+}
+.new-arr-2 p{
+  text-align: center;
+  color: #047a72;
+  font-size: 20px;
+}
+.container-3-0{
+  padding-top: 30px;
+}
+
+
+                                             /* banner */
+                                            
+.banner{
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+.bann-cont{
+  background-image: url("banner\ 1.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-top: 70px;
+  height: 55vh;
+  width: 35rem;
+  background-size: cover;
+  background-position: center;
+}
+.heading-5{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 30px;
+  color: white;
+}
+.heading-5 h5{
+  font-size: 20px;
+
+}
+.heading-5 h1{
+  font-size: 40px;
+}
+.heading-5 p{
+  font-size: 18px;
+}
+.heading-5 button{
+  background-color: transparent;
+  width: 8rem;
+  height: 3rem;
+  border: 2px solid white;
+  color: white;
+  font-size: 1.2rem;
+  transition: .3s;
+}
+.heading-5 button:hover{
+  background-color:#047a72;
+  border: none;
+
+}
+.bann-cont-2{
+  background-image: url("banner\ 2.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-top: 70px;
+  height: 55vh;
+  width: 35rem;
+  background-size: cover;
+  background-position: center;
+}
+.bann-cont-2 button{
+  background-color:#047a72;
+  border: none;
+  transition: .3s;
+}
+.bann-cont-2 button:hover{
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+
+
+/* second banner */
+.banner-2{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.bann2-cont-1{
+  background-image: url("banner\ 3.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-top: 50px;
+  height: 35vh;
+  width: 23rem;
+  background-size: cover;
+  background-position: center;
+}
+.bann2-cont-2{
+  background-image: url("banner\ 4.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-top: 50px;
+  height: 35vh;
+  width: 23rem;
+  background-size: cover;
+  background-position: center;
+}
+.bann2-cont-3{
+  background-image: url("banner\ 5.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-top: 50px;
+  height: 35vh;
+  width: 23rem;
+  background-size: cover;
+  background-position: center;
+}
+.heading-6{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.heading-6 h1{
+ font-size: 2.2rem;
+color: white;
+padding-left: 20px;
+}
+.heading-6 h3{
+  font-size: 1.2rem;
+color: red;
+padding-left: 20px;
+}
+
+
+/* section - 5 */
+.sign-up{
+  margin-top: 5rem;
+  height: 35vh;
+  background-image: url("sign\ up\ image.jpg");
+  display: flex;
+}
+.left-section-5{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.left-section-5 h1{
+  font-size: 2.5rem;
+  color: white;
+}
+.left-section-5 p{
+  font-size: 17px;
+  color: #818ea0;
+}
+.rightsection-5{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.input-div {
+  display: flex;
+}
+.rightsection-5 .input-div input{
+ height: 3rem;
+font-size: 18px;
+width: 18rem;
+border-radius: 7px;
+padding-left: 10px;
+outline: none;
+border: none;
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+}
+.input-div button{
+  color: white;
+  border: none;
+  border-radius: 7px;
+  background-color: #047a72;
+  font-size: 18px;
+  padding: 13px 25px;
+  white-space: nowrap;
+  border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+}
+
+.footer{
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foot-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding: 0 40px;
+  gap: 50px;
+}
+.foot-details{
+  padding-top: 20px;
+ display: flex;
+flex-direction: column;
+gap: 6px;
+}
+.foot-details p{
+  font-weight: 700;
+}
+.foot-details span{
+  color: #606063;
+  font-weight: 400;
+}
+.download-image{
+  display: flex;
+}
+.download-image img{
+width: 55%;
+margin-top: -40px;
+}
+
+
+.copyright{
+ margin-top: -35px;
+  display: flex;
+  justify-content: center;
+  color: #606063;
+}
+#random2 img{
+  width: 100%;
+  height: 100%;
+  }
+
+
+
+
+  

@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500;
+}
+a{
+  text-decoration: none;
+}
+body {
+  background-color: rgb(233, 227, 227);
+}
+header {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #e3e6f3;
+  box-shadow: 0px 5px 15px rgb(0, 0, 0, 0.06);
+  padding: 0 35px;
+}
+header img{
+  height: 110px;
+}
+header nav{
+  display: flex;
+  gap: 3vw;
+}
+header nav a {
+  text-decoration: none;
+  font-size: 2vw;
+  color: black;
+}
+nav a {
+  transition: 0.5s;
+}
+#bag{
+font-size: 24px;
+}
+nav a:hover {
+  color: #22c9be;
+  text-decoration: underline;
+}
+nav a:nth-child(1) {
+  color: #22c9be;
+}
+
+#close{
+  display: none;
+}
+#hamburger {
+  display: none;
+  font-size: 24px;
+}
+
+
+.container{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.small-container{
+  height: 90%;
+  width: 48rem;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, .4);
+  display: flex;
+}
+.contact-leftsection{
+  height: 100%;
+  width: 50%;
+  background-color: white;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact-leftsection h1{
+  padding:20px 30px;
+  color:  #8f50ec;
+}
+.contact-leftsection img{
+  width: 25rem;
+  padding:10px 30px;
+  margin-left: -20px;
+}
+.contact-para{
+  padding-left: 30px;
+}
+.contact-para p{
+  font-size: 17px;
+}
+.contact-icon {
+  display: flex;
+  gap: 10px;
+  padding:10px 0;
+}
+.contact-icon i{
+  font-size: 25px;
+  border-radius: 10px;
+  padding:7px 7px;
+  color: white;
+  background-color:  #8f50ec;
+  transition: .5s;
+}
+.contact-icon i:hover{
+  background-color: white;
+  color: #8f50ec;
+}
+.contact-rightsection{
+  height: 100%;
+  width: 50%;
+  background-color: #8f50ec;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.contact-rightsection h1{
+  color: white;
+  padding: 20px 30px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  color: white;
+  padding: 0 50px;
+
+}
+.form input{
+ height: 8vh;
+ width: 100%;
+ border-radius: 20px;
+ padding: 10px 20px;
+ border: 1px solid white;
+ font-size: 17px;
+ background-color: transparent;
+color: white;
+outline: none;
+}
+.form textarea{
+  height: 20vh;
+  width: 100%;
+  border-radius: 20px;
+ border: 1px solid white;
+ font-size: 20px;
+ background-color: transparent;
+ padding: 10px 10px;
+ overflow: auto;
+ resize: none;
+ color: white;
+outline: none;
+
+}
+.form button{
+  font-weight: 500;
+height: 40px;
+width: 30%;
+  outline: none;
+  border: none;
+  background-color: white;
+  color: #8f50ec;
+  font-size: 17px;
+  border-radius: 10px;
+  transition: .5s;
+}
+.form button:hover{
+  background-color: #8f50ec;
+  color: white;
+}

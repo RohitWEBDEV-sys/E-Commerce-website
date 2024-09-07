@@ -1,0 +1,263 @@
+@media screen and (max-width: 1280px) {
+  .download-image img {
+    margin-top: -30px;
+  }
+}
+@media screen and (max-width: 922px) {
+  /* nav bar */
+
+  header nav a {
+    font-size: 20px;
+    padding: 6px;
+  }
+  /* footer */
+  .download-image img {
+    width: 60%;
+  }
+  .social-media-icon {
+    padding-left: 125px;
+  }
+  .featured-product h1 {
+    font-size: 50px;
+  }
+  .featured-product p:nth-child(2) {
+    font-size: 20px;
+  }
+  .sign-up {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .left-section-5 {
+    /* align-items: start; */
+    justify-content: end;
+  }
+  .left-section-5-heading {
+    width: 160%;
+    text-align: center;
+  }
+  .left-section-5-para {
+    width: 150%;
+    text-align: center;
+  }
+  /* product details */
+  .product-details p {
+    width: 90%;
+  }
+  .product-dt-rightsection button {
+    font-size: 1.2rem;
+    height: 40px;
+    width: 150px;
+  }
+
+  /* contact */
+  .small-container{
+    width: 85%;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* nav bar */
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    gap: 15px;
+    width: 300px;
+    background-color: #e3e6f3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 70px 0 0 10px;
+    transition: 0.5s;
+  }
+  #close {
+    display: block;
+    position: absolute;
+    font-size: 24px;
+    top: 20px;
+    left: 18px;
+  }
+  #bag {
+    display: block;
+  }
+  #navbar.active {
+    right: 0px;
+  }
+  #hamburger {
+    width: 50px;
+  }
+  #hamburger {
+    display: block;
+  }
+  /* mainsection      */
+  .main {
+    background-position: top 30% right 30%;
+  }
+  .heading-1 h1{
+    font-size: 42px;
+  }
+  /* footer */
+  .footer {
+    height: 75vh;
+  }
+  .foot-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .social-media-icon {
+    padding-left: 20px;
+  }
+  .copyright {
+    margin-top: 50px;
+  }
+  .download-image img {
+    width: 45%;
+  }
+
+  /* sign up */
+  .heading-4 h1 {
+    text-align: center;
+  }
+  .copyright {
+    margin-top: -35px;
+  }
+ 
+  /* contact */
+  .container{
+    height: 170vh;
+  }
+.small-container{
+  flex-direction: column;
+}
+.contact-leftsection{
+  width: 100%;
+  height: 45%;
+  align-items: center;
+  gap: 5px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.contact-leftsection h1{
+  padding:10px 30px;
+}
+.contact-leftsection img{
+  width: 20rem;
+  padding:0 0;
+  margin-left: 0px;
+}
+.contact-para{
+  padding: 10px 0;
+}
+.contact-icon {
+  padding:10px 0;
+}
+.contact-rightsection{
+  width: 100%;
+  height: 55%;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 0px;
+}
+
+
+}
+
+@media screen and (max-width: 576px) {
+  .main {
+    background-position: top 0% right 30%;
+  }
+  
+  .leftsection-1 {
+    width: 100%;
+    align-items: start;
+    padding-top: 90px;
+  }
+  .heading-1 h2 {
+    font-size: 6vw;
+  }
+  .heading-1 h1 {
+    font-size: 7vw;
+  }
+  .heading-1 p {
+    color: #088178;
+    font-size: 25px;
+    width: 90%;
+  }
+
+  /* new arrival*/
+
+  .heading-4 button {
+    height: 60px;
+    width: 180px;
+  }
+  .heading-4 h3 {
+    font-size: 27px;
+  }
+  .heading-4 h1 {
+    font-size: 32px;
+  }
+  /* new-arr-2 */
+
+  .new-arr-2 h1 {
+    font-size: 43px;
+  }
+
+  /* banner */
+  .bann-cont {
+    height: 40vh;
+    width: 88%;
+  }
+  .heading-5 h2 {
+    font-size: 5.5vw;
+  }
+  .heading-5 h1 {
+    font-size: 7.5vw;
+  }
+  .bann-cont-2 {
+    margin-top: 6px;
+    height: 40vh;
+    width: 88%;
+  }
+  .bann2-cont-1 {
+    height: 30vh;
+    width: 80%;
+  }
+  .bann2-cont-2,
+  .bann2-cont-3 {
+    margin-top: -10px;
+    height: 30vh;
+    width: 80%;
+  }
+  /* signup */
+
+  .left-section-5 h1 {
+    font-size: 7vw;
+  }
+  .left-section-5 p {
+    font-size: 4vw;
+  }
+  .rightsection-5 .input-div input {
+    height: 3rem;
+    font-size: 18px;
+    width: 60vw;
+  }
+  .input-div button {
+    font-size: 18px;
+    padding: 13px 15px;
+    width: 20vw;
+    font-size: 4vw;
+  }
+  .download-image img {
+    margin-top: 2px;
+    width: 58%;
+  }
+
+
+  /* contact */
+  .contact-leftsection h1{
+    font-size: 7vw;
+
+  }
+}
+
+
